@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>mason - simulator.mason</title>
+          <meta name="description" content="mason - simulator.mason" />
+          <meta name="keywords" content="mason simulator.mason" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../index.html';
+            var hash = 'simulator.mason.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../lib/package_big.png" />
+        <p id="owner"><a href="../package.html" class="extype" name="simulator">simulator</a></p>
+        <h1>mason</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mason</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="simulator.mason.MasonAgent" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MasonAgentextendsSteppablewithOriented2D"></a>
+      <a id="MasonAgent:MasonAgent"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="MasonAgent.html"><span class="name">MasonAgent</span></a><span class="result"> extends <span class="extype" name="sim.engine.Steppable">Steppable</span> with <span class="extype" name="sim.portrayal.Oriented2D">Oriented2D</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Agente MASON que pertenecerá a un MasonSIM.</p>
+    </li><li name="simulator.mason.MasonAgentConsole" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="MasonAgentConsoleextendsAnyRef"></a>
+      <a id="MasonAgentConsole:MasonAgentConsole"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="MasonAgentConsole.html"><span class="name">MasonAgentConsole</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Este trair permite visualizar en el GUI de MASON (parte del agente, haciendo sobre click sobre cualquier robot)
+cualquier propiedad definiendo métodos getX() y setX().</p>
+    </li><li name="simulator.mason.MasonAgentFactory" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MasonAgentFactoryextendsAnyRef"></a>
+      <a id="MasonAgentFactory:MasonAgentFactory"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="MasonAgentFactory.html"><span class="name">MasonAgentFactory</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Factoria encargada de generar objetos MasonAgent.</p>
+    </li><li name="simulator.mason.MasonGUI" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MasonGUIextendsGUIState"></a>
+      <a id="MasonGUI:MasonGUI"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="MasonGUI.html"><span class="name">MasonGUI</span></a><span class="result"> extends <span class="extype" name="sim.display.GUIState">GUIState</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Clase que implementar el interfaz gráfico necesario para que MASON cree el GUI de un SimState
+</p>
+    </li><li name="simulator.mason.MasonPortrayal2DRender" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MasonPortrayal2DRenderextendsSimplePortrayal2D"></a>
+      <a id="MasonPortrayal2DRender:MasonPortrayal2DRender"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="MasonPortrayal2DRender.html"><span class="name">MasonPortrayal2DRender</span></a><span class="result"> extends <span class="extype" name="sim.portrayal.SimplePortrayal2D">SimplePortrayal2D</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Renderizador de objetos robot para un SimplePortrayal2D</p>
+    </li><li name="simulator.mason.MasonPortrayal2DRenderFactory" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MasonPortrayal2DRenderFactoryextendsAnyRef"></a>
+      <a id="MasonPortrayal2DRenderFactory:MasonPortrayal2DRenderFactory"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="MasonPortrayal2DRenderFactory.html"><span class="name">MasonPortrayal2DRenderFactory</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Factoria de construcción de objetos  MasonPortrayal2DRender
+</p>
+    </li><li name="simulator.mason.MasonSwarm" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MasonSwarmextendsSimStatewithEnvironment"></a>
+      <a id="MasonSwarm:MasonSwarm"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="MasonSwarm.html"><span class="name">MasonSwarm</span></a><span class="result"> extends <span class="extype" name="sim.engine.SimState">SimState</span> with <a href="../Environment.html" class="extype" name="simulator.Environment">Environment</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Contiene el objeto de simulación de MASON.</p>
+    </li><li name="simulator.mason.MasonSwarmConsole" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="MasonSwarmConsoleextendsAnyRef"></a>
+      <a id="MasonSwarmConsole:MasonSwarmConsole"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="MasonSwarmConsole.html"><span class="name">MasonSwarmConsole</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Este trair permite visualizar en el GUI de MASON cualquier propiedad definiendo métodos getX() y setX().</p>
+    </li><li name="simulator.mason.MasonSwarmFactory" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MasonSwarmFactoryextendsMakesSimState"></a>
+      <a id="MasonSwarmFactory:MasonSwarmFactory"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="MasonSwarmFactory.html"><span class="name">MasonSwarmFactory</span></a><span class="result"> extends <span class="extype" name="sim.engine.MakesSimState">MakesSimState</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Factoria encargada de generar objetos MasonSwarm.</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="simulator.mason.MasonGUI" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MasonGUI"></a>
+      <a id="MasonGUI:MasonGUI"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="MasonGUI$.html"><span class="name">MasonGUI</span></a>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../lib/template.js"></script>
+    </body>
+      </html>

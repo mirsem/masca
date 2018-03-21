@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>environment - simulator.environment</title>
+          <meta name="description" content="environment - simulator.environment" />
+          <meta name="keywords" content="environment simulator.environment" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../index.html';
+            var hash = 'simulator.environment.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../lib/package_big.png" />
+        <p id="owner"><a href="../package.html" class="extype" name="simulator">simulator</a></p>
+        <h1>environment</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">environment</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="simulator.environment.EnvDistribution" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="EnvDistributionextendsEnvironment"></a>
+      <a id="EnvDistribution:EnvDistribution"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="EnvDistribution.html"><span class="name">EnvDistribution</span></a><span class="result"> extends <a href="../Environment.html" class="extype" name="simulator.Environment">Environment</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Entorno que proporciona un mapa de traza, que guarda cierto tiempo el movimiento realizado por los robots
+y lo muestra en el GUI</p>
+    </li><li name="simulator.environment.EnvMap" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="EnvMapextendsEnvResource"></a>
+      <a id="EnvMap:EnvMap"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="EnvMap.html"><span class="name">EnvMap</span></a><span class="result"> extends <a href="EnvResource.html" class="extype" name="simulator.environment.EnvResource">EnvResource</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Entorno de recursos donde cualquier pixel negro significa que es un obstáculo que no se puede atravesar</p>
+    </li><li name="simulator.environment.EnvMovingResource" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="EnvMovingResourceextendsEnvironment"></a>
+      <a id="EnvMovingResource:EnvMovingResource"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="EnvMovingResource.html"><span class="name">EnvMovingResource</span></a><span class="result"> extends <a href="../Environment.html" class="extype" name="simulator.Environment">Environment</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Entorno que carga un mapa desde una secuencia de imagenes y lo muestra en el GUI.</p>
+    </li><li name="simulator.environment.EnvPheromones" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="EnvPheromonesextendsEnvironment"></a>
+      <a id="EnvPheromones:EnvPheromones"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="EnvPheromones.html"><span class="name">EnvPheromones</span></a><span class="result"> extends <a href="../Environment.html" class="extype" name="simulator.Environment">Environment</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Entorno que proporciona un mapa de traza, que guarda cierto tiempo el movimiento realizado por los robots
+y lo muestra en el GUI</p>
+    </li><li name="simulator.environment.EnvResource" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="EnvResourceextendsEnvironment"></a>
+      <a id="EnvResource:EnvResource"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="EnvResource.html"><span class="name">EnvResource</span></a><span class="result"> extends <a href="../Environment.html" class="extype" name="simulator.Environment">Environment</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Entorno que carga un mapa desde una imagen y lo muestra en el GUI.</p>
+    </li><li name="simulator.environment.EnvTrace" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="EnvTraceextendsEnvironment"></a>
+      <a id="EnvTrace:EnvTrace"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="EnvTrace.html"><span class="name">EnvTrace</span></a><span class="result"> extends <a href="../Environment.html" class="extype" name="simulator.Environment">Environment</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Entorno que proporciona un mapa de traza, que guarda cierto tiempo el movimiento realizado por los robots
+y lo muestra en el GUI</p>
+    </li></ol>
+            </div>
+
+        
+
+        
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../lib/template.js"></script>
+    </body>
+      </html>

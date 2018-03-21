@@ -1,0 +1,1121 @@
+[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: default#masca$sources_javadoc;0.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
+[0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-reflect;2.10.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.10.6] org.scala-lang#scala-reflect;2.10.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-library;2.10.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.10.6] org.scala-lang#scala-library;2.10.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.4.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.4.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.thoughtworks.paranamer#paranamer;2.4.1 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: net.liftweb#lift-json_2.10;2.6.3 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: net.liftweb#lift-json_2.10;2.6.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found net.liftweb#lift-json_2.10;2.6.3 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.6 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[default, compile, runtime, optional, optional(default), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-compiler;2.10.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scalap;2.10.6 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scalap;2.10.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'provided'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [compile-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [runtime-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [test-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->net.liftweb#lift-json_2.10;2.6.3 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scalap;2.10.6 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [plugin][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'pom'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [pom][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#masca$sources_javadoc;0.1 [scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#jline;2.10.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[compile, master(compile), compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#jline;2.10.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#jline;2.10.6 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#jline;2.10.6 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#jline;2.10.6 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-reflect;2.10.6 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.fusesource.jansi#jansi;1.4 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[compile, master(compile), compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.fusesource.jansi#jansi;1.4 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.fusesource.jansi#jansi;1.4 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.fusesource.jansi#jansi;1.4 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-library;2.10.6 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#masca$sources_javadoc;0.1->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.4.1!paranamer.jar(doc)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/org.fusesource.jansi/jansi/1.4/docs/jansi-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.4.1!paranamer.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/net.liftweb/lift-json_2.10/2.6.3/srcs/lift-json_2.10-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/org.scala-lang/scala-compiler/2.10.6/srcs/scala-compiler-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/org.fusesource.jansi/jansi/1.4/srcs/jansi-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/net.liftweb/lift-json_2.10/2.6.3/docs/lift-json_2.10-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/org.scala-lang/scala-compiler/2.10.6/docs/scala-compiler-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/org.scala-lang/scala-reflect/2.10.6/docs/scala-reflect-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/org.scala-lang/scala-library/2.10.6/srcs/scala-library-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/org.scala-lang/scala-reflect/2.10.6/srcs/scala-reflect-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.6.3/lift-json_2.10-2.6.3-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/org.scala-lang/scalap/2.10.6/srcs/scalap-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/org.scala-lang/scala-library/2.10.6/docs/scala-library-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/org.scala-lang/jline/2.10.6/docs/jline-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/org.scala-lang/jline/2.10.6/srcs/jline-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/fidel/.ivy2/local/org.scala-lang/scalap/2.10.6/docs/scalap-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.6/scalap-2.10.6-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.6/jline-2.10.6-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.6/scalap-2.10.6-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.6/scalap-2.10.6-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.6/jline-2.10.6-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.6/jline-2.10.6-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.4!jansi.jar(doc) (255ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.6/scalap-2.10.6-sources.jar.sha1[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.6.3/lift-json_2.10-2.6.3-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.6.3/lift-json_2.10-2.6.3-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.6/scalap-2.10.6-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scalap;2.10.6!scalap.jar(src) (324ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.6/scalap-2.10.6-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.6.3/lift-json_2.10-2.6.3-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.6.3/lift-json_2.10-2.6.3-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] net.liftweb#lift-json_2.10;2.6.3!lift-json_2.10.jar(src) (459ms)[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.4!jansi.jar(src) (204ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.6.3/lift-json_2.10-2.6.3-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.6/scalap-2.10.6-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.6/scalap-2.10.6-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.6/jline-2.10.6-javadoc.jar.sha1[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.6.3/lift-json_2.10-2.6.3-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.6.3/lift-json_2.10-2.6.3-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.6!scala-library.jar(src) (693ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.6/jline-2.10.6-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#jline;2.10.6!jline.jar(doc) (715ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.6/jline-2.10.6-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.6/jline-2.10.6-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.6/jline-2.10.6-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.6/jline-2.10.6-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.6/jline-2.10.6-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#jline;2.10.6!jline.jar(src) (259ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.6.3/lift-json_2.10-2.6.3-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/net/liftweb/lift-json_2.10/2.6.3/lift-json_2.10-2.6.3-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] net.liftweb#lift-json_2.10;2.6.3!lift-json_2.10.jar(doc) (699ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.6/scalap-2.10.6-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.6/scalap-2.10.6-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scalap;2.10.6!scalap.jar(doc) (945ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(src) (1299ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.6!scala-library.jar(doc) (6579ms)[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(doc) (8855ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar(doc) (13920ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar(src) (217ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 225ms :: artifacts dl 14148ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#masca$sources_javadoc;0.1 compile produced in /Users/fidel/Desktop/Masca/target/scala-2.10/resolution-cache/reports/default-masca$sources_javadoc-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#masca$sources_javadoc;0.1 runtime produced in /Users/fidel/Desktop/Masca/target/scala-2.10/resolution-cache/reports/default-masca$sources_javadoc-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#masca$sources_javadoc;0.1 test produced in /Users/fidel/Desktop/Masca/target/scala-2.10/resolution-cache/reports/default-masca$sources_javadoc-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#masca$sources_javadoc;0.1 provided produced in /Users/fidel/Desktop/Masca/target/scala-2.10/resolution-cache/reports/default-masca$sources_javadoc-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#masca$sources_javadoc;0.1 optional produced in /Users/fidel/Desktop/Masca/target/scala-2.10/resolution-cache/reports/default-masca$sources_javadoc-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#masca$sources_javadoc;0.1 compile-internal produced in /Users/fidel/Desktop/Masca/target/scala-2.10/resolution-cache/reports/default-masca$sources_javadoc-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#masca$sources_javadoc;0.1 runtime-internal produced in /Users/fidel/Desktop/Masca/target/scala-2.10/resolution-cache/reports/default-masca$sources_javadoc-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#masca$sources_javadoc;0.1 test-internal produced in /Users/fidel/Desktop/Masca/target/scala-2.10/resolution-cache/reports/default-masca$sources_javadoc-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#masca$sources_javadoc;0.1 plugin produced in /Users/fidel/Desktop/Masca/target/scala-2.10/resolution-cache/reports/default-masca$sources_javadoc-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#masca$sources_javadoc;0.1 pom produced in /Users/fidel/Desktop/Masca/target/scala-2.10/resolution-cache/reports/default-masca$sources_javadoc-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#masca$sources_javadoc;0.1 scala-tool produced in /Users/fidel/Desktop/Masca/target/scala-2.10/resolution-cache/reports/default-masca$sources_javadoc-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (225ms resolve - 14148ms download)[0m

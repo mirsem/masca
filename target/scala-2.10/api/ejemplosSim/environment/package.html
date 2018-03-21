@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>environment - ejemplosSim.environment</title>
+          <meta name="description" content="environment - ejemplosSim.environment" />
+          <meta name="keywords" content="environment ejemplosSim.environment" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../index.html';
+            var hash = 'ejemplosSim.environment.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../lib/package_big.png" />
+        <p id="owner"><a href="../package.html" class="extype" name="ejemplosSim">ejemplosSim</a></p>
+        <h1>environment</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">environment</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="ejemplosSim.environment.AgentConsole" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="AgentConsoleextendsMasonAgentConsole"></a>
+      <a id="AgentConsole:AgentConsole"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="AgentConsole.html"><span class="name">AgentConsole</span></a><span class="result"> extends <a href="../../simulator/mason/MasonAgentConsole.html" class="extype" name="simulator.mason.MasonAgentConsole">MasonAgentConsole</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="ejemplosSim.environment.BEAvoidMapObstacle" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BEAvoidMapObstacleextendsBehaviour"></a>
+      <a id="BEAvoidMapObstacle:BEAvoidMapObstacle"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="BEAvoidMapObstacle.html"><span class="name">BEAvoidMapObstacle</span></a><span class="result"> extends <a href="../../simulator/Behaviour.html" class="extype" name="simulator.Behaviour">Behaviour</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="ejemplosSim.environment.EnvPheromonesBE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EnvPheromonesBEextendsBehaviour"></a>
+      <a id="EnvPheromonesBE:EnvPheromonesBE"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="EnvPheromonesBE.html"><span class="name">EnvPheromonesBE</span></a><span class="result"> extends <a href="../../simulator/Behaviour.html" class="extype" name="simulator.Behaviour">Behaviour</a></span>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="ejemplosSim.environment.EnvMapSample" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EnvMapSample"></a>
+      <a id="EnvMapSample:EnvMapSample"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="EnvMapSample$.html"><span class="name">EnvMapSample</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">Este ejemplo demuentra como ampliar los sensores del robot con uno que permite leer la intensidad de la huella dejada en el suelo por él o otro compañero
+Para lograrlo se deben realizar dos cosas: por una parte agregar al antorno el trait EnvTrace, que es el que proporciona la habilidad de guardar la marca
+dejada por los robots al desplazarse.</p>
+    </li><li name="ejemplosSim.environment.EnvPheromonesSample" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EnvPheromonesSample"></a>
+      <a id="EnvPheromonesSample:EnvPheromonesSample"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="EnvPheromonesSample$.html"><span class="name">EnvPheromonesSample</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">Este ejemplo demuentra como ampliar los sensores del robot con uno que permite leer la intensidad de la huella dejada en el suelo por él o otro compañero
+Para lograrlo se deben realizar dos cosas: por una parte agregar al antorno el trait EnvTrace, que es el que proporciona la habilidad de guardar la marca
+dejada por los robots al desplazarse.</p>
+    </li><li name="ejemplosSim.environment.MainMason" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MainMason"></a>
+      <a id="MainMason:MainMason"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="MainMason$.html"><span class="name">MainMason</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">Este ejemplo demuentra como ampliar los sensores del robot con uno que permite leer la intensidad de la huella dejada en el suelo por él o otro compañero
+Para lograrlo se deben realizar dos cosas: por una parte agregar al antorno el trait EnvTrace, que es el que proporciona la habilidad de guardar la marca
+dejada por los robots al desplazarse.</p>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../lib/template.js"></script>
+    </body>
+      </html>
