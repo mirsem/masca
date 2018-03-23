@@ -4,4 +4,4 @@ Este simulador se ha desarrollado dentro del proyecto [TIN2013-40982-R] Sistemas
 
 ![ScreenShoot](https://github.com/i3a/masca/blob/master/screenshots/01.png)
 
-![Logos](https://github.com/i3a/masca/blob/master/logos.png)
+![Logos](https://github.com/i3a/masca/blob/master/logos.jpg)
